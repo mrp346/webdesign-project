@@ -1,0 +1,370 @@
+
+/* Header */
+header{
+	width: 100%;
+	background-color: #042C53;
+	position: fixed;
+	top:0;
+	z-index: 1000; 
+	padding: 15px 0 8px 0;
+} 
+.logo{
+	width: 300px;
+	height: 56px;
+	float: left;
+	margin-top: 30px;  
+	background: url("../images/park-guell.svg") no-repeat; 
+} 
+
+nav{
+	float: right;
+}
+nav ul { 
+	list-style-type: none;
+	text-align: right;
+}
+
+nav li {
+	display: inline-block; 
+	font-size: .8em;
+	font-weight: 600;
+	text-transform: uppercase;
+	letter-spacing: .1em;
+	padding-left: 20px;
+	cursor: pointer;
+}
+
+nav li a:link{
+	color: #091c5a;
+	text-decoration:none;
+}
+nav li a:visited{
+	color: #091c5a;
+}
+nav li a:hover{
+	color: #ff6600;
+	text-decoration:underline;   
+}
+nav li a:active{
+	color: #ff6600;
+}
+
+.section-head{
+	text-align: center;
+	margin-bottom: 5px;
+    margin-top: 0;
+}
+.section-copy{
+	text-align: center;
+	font-size: 1.2em;
+}
+
+/* hero video */
+
+.hero-overlay{
+	position: absolute;
+	top: 136px;
+	height: 550px;
+	width: 940px;
+	z-index: 100;
+	background-repeat: no-repeat;
+	background-position: bottom;
+	overflow: visible;
+}
+.hero-video{
+	width: 100%;
+	max-height: 580px;
+	overflow: hidden;
+}
+
+video{
+	min-height: 580px;
+}
+
+.hero-headline{
+	text-align: center;
+	text-transform: uppercase;
+}
+
+
+
+
+
+/* introduction */ 
+.introduction{
+	width: 100%;
+	padding:120px 0 100px 0;
+	background-color: #ffffff;
+	}
+  
+/* About Us */
+.about{
+	width: 100%;
+	padding:100px 0 100px 0;
+	background-color:#3675BD;
+	}
+
+.about{
+	width: 100%;
+	padding:100px 0 100px 0;
+	background-color: #3675BD;
+	}
+/* History */
+.history{
+	width: 100%;
+	padding:100px 0 100px 0;
+	background-color:#4C7F63;
+	}
+
+.history{
+	width: 100%;
+	padding:100px 0 100px 0;
+	background-color: #4C7F63;
+	}
+
+/* Customer Testimonials */
+.visitors{
+	width:100%; 
+	padding:100px 0;
+	background-color:#3675BD;
+}
+
+.visitors img{
+	width:130px;
+	margin-bottom: 10px;
+	border-radius: 50%;
+} 
+
+/* Projects */
+.projects{
+	width:100%;
+	padding:100px 0;
+	background-color: #efefef;
+}
+.project-box{
+	background-color: #f8f8f8;
+}
+
+.project-text{
+	text-align: left;
+	padding: 10px 20px;
+}
+.project-link{
+	font-size:.7em;
+	letter-spacing: .09em;
+	text-transform: uppercase;
+	font-weight:900;
+}
+
+/* features */
+
+.features{ 
+width: 100%;
+	padding: 100px 0;
+	background-color: #ffffff;
+}
+
+.features-subhead{
+	text-align: left;
+	margin-left: 60px;
+	marrgin-bottom: 5px;	
+}
+
+.features-copy{
+	margin-bottom: 20px;
+	margin-left: 60px;
+	text-align: left;
+}
+
+.fa-github,
+.fa-html5,
+.fa-wrench,
+.fa-file-pdf,     
+.fa-codepen{
+  color:#696969;
+font-size: 2.5em;
+margin-bottom: 10px;
+margin-top: 20px;	
+ } 
+
+
+.fa-css3{
+	color: #696969;
+	font-size: 2.3em;	
+	margin: 10px; 
+	margin-top: 20px;
+}
+
+/* memberships */
+
+.memberships{
+	width: 100%;
+	padding: 100px 0;
+	background-color:#4C7F63;
+		
+}
+.membership-free,
+.membership-monthly,
+.membership-yearly{
+	font-size: 2em; 
+	color: #ffffff;
+	text-align: center;
+	padding: 20px 0;
+}
+.membership-free{
+	background-color:#a3a3a3;
+}
+.membership-monthly{
+	background-color:#6e6e6e6e;
+}
+
+
+.membership-yearly{
+	background-color: #a3a3a3;
+}
+
+.membership-cost{
+	font-size: 1.2em;
+	color: #000000;
+	font-weight: 900;
+	text-align: center;
+	padding: 10px 0;
+	background-color: #dedede; 
+}
+
+.membership-features{
+	text-align: center;
+	padding: 30px 0 20px 0;
+	background-color: #f6f6f6;
+	height: 336px;
+}
+
+.membership-features ul{
+	padding: 0;
+	margin: 0;
+	text-align: center;
+}
+.membership-features li{
+	list-style: none outside none;
+	padding: 0 20px 10px 20px;
+}
+
+.membership-btn{
+	margin: 30px auto;
+}
+.membership-btn a:link {
+	border-radius: 5px;
+	background-color: #dedede;
+	padding: 10px 30px;
+	font-size:.9em;
+	font-weight: 100;
+	text-decoration: none;;
+	text-transform: uppercase;
+	text-align: center;
+	color: #515255;
+}
+
+/* location */
+
+.location{
+	width: 100%;
+	padding: 100px 0;
+	background-color: #ffffff;
+}
+
+location img {
+	margin-bottom: 10px;
+}
+
+/* contact */
+
+.contact{
+	width: 100%;
+	padding: 100px 0;
+	background-color: #efefef;	
+}
+
+.contact-form input[ type="text"],
+.contact-form input[ type="email"],
+.contact-form textarea,
+.contact-form select{
+	width: 460px;
+	height: 35px;
+	margin-bottom: 25px;
+	padding: 5px 5px 5px 10px;
+	border: 1px solid #dadada;
+	color: #888888;
+	font-weight:100%;
+}
+
+.contact-form textarea{
+	height: 200px;
+} 
+.city{
+	text-transform: uppercase;
+	font-weight: 900;
+}
+
+
+/* footer */
+
+footer {
+	width:100%;
+	padding: 90px 0 80px 0;
+	text-align: center;
+	background-color: #3c3c3c;
+}
+
+footer a:link{
+	color:#959595;
+	text-decoration: none; 
+}
+
+footer a:visited{
+	color:#959595;
+	text-decoration: none; 
+}
+
+footer a:hover{
+	color:#ffffff;
+	text-decoration: none; 
+}
+footer a:active{
+	color:#ffffff;
+	text-decoration: none; 
+}
+
+.copyright{
+	width: 100%;
+	color: #959595;
+}
+.copyright p{
+	margin-bottom: 0px;
+}
+
+.fa-linkedin,
+.fa-twitter,
+.fa-facebook-f{
+	font-size: 2em;
+	margin: 20px 5px 0 5px;
+	color: #959595;
+	
+}
+
+.fa-linkedin:hover,
+.fa-twitter:hover,
+.fa-facebook-f:hover{	
+	color: #ffffff;     	
+}
+
+/* desktop and lapyops */
+
+@media only screen and (min-width:1224px){
+	video{
+		width:100%;
+		
+	}
+	
+} 
+
+
